@@ -1,0 +1,315 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek (Greece) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)\r\n"
+    "LANGUAGE 8, 1\r\n"
+    "#pragma code_page(1253)\r\n"
+    "#include ""res\\Bineye.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 281, 162
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "About Bineye"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_GROUP | WS_TABSTOP,254,116,19,16
+    CONTROL         205,IDC_STATIC,"Static",SS_BITMAP,0,0,281,162
+END
+
+IDD_BINEYE_DIALOG DIALOGEX 0, 0, 373, 356
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Wiznet Bineye"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Settings",IDC_BTNSETTINGS,"Button",BS_OWNERDRAW | WS_TABSTOP,321,335,20,17
+    CONTROL         "Close",IDC_BTNCLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,346,335,20,17
+    CONTROL         "About",IDC_BTNABOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,297,335,20,17
+END
+
+IDD_LINE_DLG DIALOGEX 0, 0, 244, 78
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+EXSTYLE WS_EX_TRANSPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_MSGBOX DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 278, 139
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "Bineye Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,118,113,18,16
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,142,113,18,16
+    CONTROL         "Apply Alpha on RGB circle",IDC_ApplyAlphaOnTriCirlce,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,15,120,12
+    CONTROL         "Add Win color sign (x)",IDC_AddWinColorSign,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,47,120,12
+    CONTROL         "Add Web color sign (#)",IDC_AddWebColorSign,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,31,120,12
+    CONTROL         "Bits bar zero indexed",IDC_BitsZeroIndex,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,63,120,12
+    CONTROL         "All hex to UPPERCASE",IDC_HexUpperCase,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,15,127,12
+    CONTROL         "Select all text on focus",IDC_SelectAllOnFocus,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,31,127,12
+    CONTROL         "Show plus sign on decimals",IDC_ShowSignedPlusSign,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,47,127,12
+    CONTROL         "Zero fill values",IDC_ZeroFill,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,63,127,12
+    CONTROL         "Display main window logo",IDC_DisplayMainDialogLogo,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,79,120,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,1,0
+ PRODUCTVERSION 2,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Wiznet"
+            VALUE "FileDescription", "Binary Calculator"
+            VALUE "FileVersion", "2.1.1"
+            VALUE "InternalName", "bineye.exe"
+            VALUE "LegalCopyright", "Copyright (c) 2007-2013 Wiznet"
+            VALUE "OriginalFilename", "bineye.exe"
+            VALUE "ProductName", "Wiznet Bineye"
+            VALUE "ProductVersion", "2.1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_BINEYE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 366
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+        HORZGUIDE, 336
+    END
+
+    IDD_LINE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_MSGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        VERTGUIDE, 21
+        VERTGUIDE, 151
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SMALLGLYPH          BITMAP                  "res\\down_arrow_small.bmp"
+IDB_MAINBG              BITMAP                  "res\\main_bg.bmp"
+IDB_UNSIGNED_ON         BITMAP                  "res\\elems\\el_ln_unsigned_on.bmp"
+IDB_8BIT_OFF            BITMAP                  "res\\elems\\el_ln_8bit_off.bmp"
+IDB_8BIT_ON             BITMAP                  "res\\elems\\el_ln_8bit_on.bmp"
+IDB_16BIT_OFF           BITMAP                  "res\\elems\\el_ln_16bit_off.bmp"
+IDB_16BIT_ON            BITMAP                  "res\\elems\\el_ln_16bit_on.bmp"
+IDB_32BIT_OFF           BITMAP                  "res\\elems\\el_ln_32bit_off.bmp"
+IDB_32BIT_ON            BITMAP                  "res\\elems\\el_ln_32bit_on.bmp"
+IDB_BIN_OFF             BITMAP                  "res\\elems\\el_ln_bin_off.bmp"
+IDB_BIN_ON              BITMAP                  "res\\elems\\el_ln_bin_on.bmp"
+IDB_BITS_OFF            BITMAP                  "res\\elems\\el_ln_bits_off.bmp"
+IDB_BITS_ON             BITMAP                  "res\\elems\\el_ln_bits_on.bmp"
+IDB_HEX_OFF             BITMAP                  "res\\elems\\el_ln_hex_off.bmp"
+IDB_HEX_ON              BITMAP                  "res\\elems\\el_ln_hex_on.bmp"
+IDB_OCT_OFF             BITMAP                  "res\\elems\\el_ln_oct_off.bmp"
+IDB_OCT_ON              BITMAP                  "res\\elems\\el_ln_oct_on.bmp"
+IDB_S_OFF               BITMAP                  "res\\elems\\el_ln_s_off.bmp"
+IDB_S_ON                BITMAP                  "res\\elems\\el_ln_s_on.bmp"
+IDB_SIGNED_OFF          BITMAP                  "res\\elems\\el_ln_signed_off.bmp"
+IDB_SIGNED_ON           BITMAP                  "res\\elems\\el_ln_signed_on.bmp"
+IDB_U_OFF               BITMAP                  "res\\elems\\el_ln_u_off.bmp"
+IDB_U_ON                BITMAP                  "res\\elems\\el_ln_u_on.bmp"
+IDB_UNSIGNED_OFF        BITMAP                  "res\\elems\\el_ln_unsigned_off.bmp"
+IDB_S_OVER              BITMAP                  "res\\elems\\el_ln_s_over.bmp"
+IDB_SIGNED_OVER         BITMAP                  "res\\elems\\el_ln_signed_over.bmp"
+IDB_U_OVER              BITMAP                  "res\\elems\\el_ln_u_over.bmp"
+IDB_UNSIGNED_OVER       BITMAP                  "res\\elems\\el_ln_unsigned_over.bmp"
+IDB_CLR_OFF             BITMAP                  "res\\elems\\el_ln_clr_off.bmp"
+IDB_CLR_ON              BITMAP                  "res\\elems\\el_ln_clr_on.bmp"
+IDB_MM_OFF              BITMAP                  "res\\elems\\el_ln_minmax_off.bmp"
+IDB_MM_ON               BITMAP                  "res\\elems\\el_ln_minmax_on.bmp"
+IDB_CIRCLE_ON           BITMAP                  "res\\elems\\el_ln_circle_on.bmp"
+IDB_CIRCLE_OFF          BITMAP                  "res\\elems\\el_ln_circle_off.bmp"
+IDB_CIRCLE_MASK         BITMAP                  "res\\elems\\el_ln_circle_mask.bmp"
+IDB_MAINLOGO            BITMAP                  "res\\main_logo.bmp"
+IDB_CIRCLE_WHITE_OFF    BITMAP                  "res\\elems\\el_ln_circle_white_off.bmp"
+IDB_CIRCLE_WHITE_ON     BITMAP                  "res\\elems\\el_ln_circle_white_on.bmp"
+IDB_MM_POINTER          BITMAP                  "res\\elems\\el_ln_mm_pointer.bmp"
+IDB_MM_SEL_OFF          BITMAP                  "res\\elems\\el_ln_minmax_sel_off.bmp"
+IDB_MM_SEL_ON           BITMAP                  "res\\elems\\el_ln_minmax_sel_on.bmp"
+IDB_CLR_LBL_RGBA        BITMAP                  "res\\elems\\el_ln_lbl_rgba.bmp"
+IDB_CLR_LBL_RGB         BITMAP                  "res\\elems\\el_ln_lbl_rgb.bmp"
+IDB_WW_OFF              BITMAP                  "res\\elems\\el_ln_ww_off.bmp"
+IDB_WW_ON               BITMAP                  "res\\elems\\el_ln_ww_on.bmp"
+IDB_FUNCS               BITMAP                  "res\\elems\\el_ln_funcs.bmp"
+IDB_BTN_TOOLS_ON        BITMAP                  "res\\btn_tools_32_on.bmp"
+IDB_BTN_EXIT_OFF        BITMAP                  "res\\btn_exit_32_off.bmp"
+IDB_BTN_EXIT_ON         BITMAP                  "res\\btn_exit_32_on.bmp"
+IDB_BTN_INFO_OFF        BITMAP                  "res\\btn_info_32_off.bmp"
+IDB_BTN_INFO_ON         BITMAP                  "res\\btn_info_32_on.bmp"
+IDB_BTN_TOOLS_OFF       BITMAP                  "res\\btn_tools_32_off.bmp"
+IDB_BTN_OK_OFF          BITMAP                  "res\\btn_ok_32_off.bmp"
+IDB_BTN_OK_ON           BITMAP                  "res\\btn_ok_32_on.bmp"
+IDB_ABOUT               BITMAP                  "res\\about.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Bineye.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Bineye..."
+    IDS_ERR_SCREENMODE      "Screen mode color %dbit detected.\nThis program analyzes 32bit colors and uses 24bit bitmaps for rendering and it cannot run.\nChange your screen mode color and try to run the program again."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // Greek (Greece) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE 8, 1
+#pragma code_page(1253)
+#include "res\Bineye.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

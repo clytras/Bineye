@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92B6C765-9B58-4B5A-B066-FD556496B799}</ProjectGuid>
+    <RootNamespace>Bineye</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BEBitmaps.cpp" />
+    <ClCompile Include="BEShowCtrl.cpp" />
+    <ClCompile Include="Bineye.cpp" />
+    <ClCompile Include="BineyeDlg.cpp" />
+    <ClCompile Include="BineyeSettings.cpp" />
+    <ClCompile Include="inc\ButtonExt.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\Color.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\FontExt.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ImgBtn.cpp" />
+    <ClCompile Include="inc\LinkCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\Markup.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp" />
+    <ClCompile Include="MWRatesCmb.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MWTabCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\PWControls.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\PWGraphics.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\PWIO.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\ToolTipEx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="inc\ZKRImage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BEBitmaps.h" />
+    <ClInclude Include="BEShowCtrl.h" />
+    <ClInclude Include="Bineye.h" />
+    <ClInclude Include="BineyeDlg.h" />
+    <ClInclude Include="BineyeSettings.h" />
+    <ClInclude Include="inc\ButtonExt.h" />
+    <ClInclude Include="inc\Color.h" />
+    <ClInclude Include="inc\FontExt.h" />
+    <ClInclude Include="inc\ijl.h" />
+    <ClInclude Include="ImgBtn.h" />
+    <ClInclude Include="inc\LinkCtrl.h" />
+    <ClInclude Include="inc\Markup.h" />
+    <ClInclude Include="MsgBox.h" />
+    <ClInclude Include="MWRatesCmb.h" />
+    <ClInclude Include="MWTabCtrl.h" />
+    <ClInclude Include="inc\PWControls.h" />
+    <ClInclude Include="inc\PWGraphics.h" />
+    <ClInclude Include="inc\PWIO.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc\ToolTipEx.h" />
+    <ClInclude Include="inc\ZKRImage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\about.bmp" />
+    <None Include="res\Bineye.ico" />
+    <None Include="res\Bineye.rc2" />
+    <None Include="res\Bineye_mn.ico" />
+    <None Include="res\btn_exit_32_off.bmp" />
+    <None Include="res\btn_exit_32_on.bmp" />
+    <None Include="res\btn_info_32_off.bmp" />
+    <None Include="res\btn_info_32_on.bmp" />
+    <None Include="res\btn_ok_32_off.bmp" />
+    <None Include="res\btn_ok_32_on.bmp" />
+    <None Include="res\btn_tools_32_off.bmp" />
+    <None Include="res\btn_tools_32_on.bmp" />
+    <None Include="res\down_arrow_small.bmp" />
+    <None Include="res\elems\el_ln_16bit_off.bmp" />
+    <None Include="res\elems\el_ln_16bit_on.bmp" />
+    <None Include="res\elems\el_ln_32bit_off.bmp" />
+    <None Include="res\elems\el_ln_32bit_on.bmp" />
+    <None Include="res\elems\el_ln_8bit_off.bmp" />
+    <None Include="res\elems\el_ln_8bit_on.bmp" />
+    <None Include="res\elems\el_ln_bin_off.bmp" />
+    <None Include="res\elems\el_ln_bin_on.bmp" />
+    <None Include="res\elems\el_ln_bits_off.bmp" />
+    <None Include="res\elems\el_ln_bits_on.bmp" />
+    <None Include="res\elems\el_ln_circle_mask.bmp" />
+    <None Include="res\elems\el_ln_circle_off.bmp" />
+    <None Include="res\elems\el_ln_circle_on.bmp" />
+    <None Include="res\elems\el_ln_circle_white_off.bmp" />
+    <None Include="res\elems\el_ln_circle_white_on.bmp" />
+    <None Include="res\elems\el_ln_clr_off.bmp" />
+    <None Include="res\elems\el_ln_clr_on.bmp" />
+    <None Include="res\elems\el_ln_funcs.bmp" />
+    <None Include="res\elems\el_ln_hex_off.bmp" />
+    <None Include="res\elems\el_ln_hex_on.bmp" />
+    <None Include="res\elems\el_ln_lbl_rgb.bmp" />
+    <None Include="res\elems\el_ln_lbl_rgba.bmp" />
+    <None Include="res\elems\el_ln_minmax_off.bmp" />
+    <None Include="res\elems\el_ln_minmax_on.bmp" />
+    <None Include="res\elems\el_ln_minmax_sel_off.bmp" />
+    <None Include="res\elems\el_ln_minmax_sel_on.bmp" />
+    <None Include="res\elems\el_ln_mm_pointer.bmp" />
+    <None Include="res\elems\el_ln_oct_off.bmp" />
+    <None Include="res\elems\el_ln_oct_on.bmp" />
+    <None Include="res\elems\el_ln_s_off.bmp" />
+    <None Include="res\elems\el_ln_s_on.bmp" />
+    <None Include="res\elems\el_ln_s_over.bmp" />
+    <None Include="res\elems\el_ln_signed_off.bmp" />
+    <None Include="res\elems\el_ln_signed_on.bmp" />
+    <None Include="res\elems\el_ln_signed_over.bmp" />
+    <None Include="res\elems\el_ln_u_off.bmp" />
+    <None Include="res\elems\el_ln_u_on.bmp" />
+    <None Include="res\elems\el_ln_u_over.bmp" />
+    <None Include="res\elems\el_ln_unsigned_off.bmp" />
+    <None Include="res\elems\el_ln_unsigned_on.bmp" />
+    <None Include="res\elems\el_ln_unsigned_over.bmp" />
+    <None Include="res\elems\el_ln_web_off.bmp" />
+    <None Include="res\elems\el_ln_web_on.bmp" />
+    <None Include="res\elems\el_ln_ww_off.bmp" />
+    <None Include="res\elems\el_ln_ww_on.bmp" />
+    <None Include="res\elems\el_r1_c1.bmp" />
+    <None Include="res\elems\el_r3_c1.bmp" />
+    <None Include="res\elems\el_r5_c2.bmp" />
+    <None Include="res\elems\el_r5_c4.bmp" />
+    <None Include="res\elems\el_r7_c2.bmp" />
+    <None Include="res\elems\el_r7_c4.bmp" />
+    <None Include="res\main_bg.bmp" />
+    <None Include="res\main_buttons.bmp" />
+    <None Include="res\main_logo.bmp" />
+    <None Include="res\msgbox\mb_bg.bmp" />
+    <None Include="res\msgbox\mb_error.bmp" />
+    <None Include="res\msgbox\mb_exclamation.bmp" />
+    <None Include="res\msgbox\mb_information.bmp" />
+    <None Include="res\msgbox\mb_question.bmp" />
+    <None Include="res\msgbox\mb_success.bmp" />
+    <None Include="res\sets_logo.bmp" />
+    <None Include="res\test_button.bmp" />
+    <None Include="res\tst_32.bmp" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bineye.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Bineye.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

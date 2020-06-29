@@ -1,0 +1,8 @@
+Invalid Value
+
+Type: 32bit decimal integer signed
+Valid values: From: -1693454234 To: +1672323453
+Valid Values: Min[ -1693454234 ] Max[ +1672323453 ]
+
+Type: 16bit hexadecimal integer
+Valid values: Min[ 0x0000 ] Max[ 0xFFFF ]

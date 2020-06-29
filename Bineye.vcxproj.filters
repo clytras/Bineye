@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BEBitmaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BEShowCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bineye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BineyeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BineyeSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\ButtonExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\FontExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgBtn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\LinkCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Markup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MWRatesCmb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MWTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\PWControls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\PWGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\PWIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\ToolTipEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\ZKRImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BEBitmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEShowCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bineye.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BineyeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BineyeSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ButtonExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\FontExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ijl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgBtn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\LinkCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MWRatesCmb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MWTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PWControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PWGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PWIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ToolTipEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ZKRImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\about.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Bineye.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Bineye.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Bineye_mn.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_exit_32_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_exit_32_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_info_32_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_info_32_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_ok_32_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_ok_32_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_tools_32_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_tools_32_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\down_arrow_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_16bit_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_16bit_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_32bit_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_32bit_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_8bit_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_8bit_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_bin_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_bin_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_bits_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_bits_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_circle_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_circle_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_circle_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_circle_white_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_circle_white_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_clr_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_clr_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_funcs.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_hex_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_hex_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_lbl_rgb.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_lbl_rgba.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_minmax_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_minmax_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_minmax_sel_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_minmax_sel_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_mm_pointer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_oct_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_oct_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_s_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_s_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_s_over.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_signed_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_signed_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_signed_over.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_u_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_u_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_u_over.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_unsigned_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_unsigned_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_unsigned_over.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_web_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_web_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_ww_off.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_ln_ww_on.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r1_c1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r3_c1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r5_c2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r5_c4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r7_c2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\elems\el_r7_c4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_error.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_exclamation.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_information.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_question.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msgbox\mb_success.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sets_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\test_button.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tst_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bineye.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
