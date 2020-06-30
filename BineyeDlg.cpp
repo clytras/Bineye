@@ -8,7 +8,6 @@
 #include ".\BEShowCtrl.h"
 #include "afxwin.h"
 #include ".\inc\LinkCtrl.h"
-#include "f:\programming\c\bineye\inc\linkctrl.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

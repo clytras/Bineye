@@ -48,15 +48,6 @@
     <ClCompile Include="inc\Markup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MsgBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MWRatesCmb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MWTabCtrl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="inc\PWControls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

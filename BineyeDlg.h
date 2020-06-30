@@ -7,7 +7,6 @@
 #include ".\BEShowCtrl.h"
 #include "imgbtn.h"
 #include "inc\ButtonExt.h"
-#include ".\MWRatesCmb.h"
 #include "BineyeSettings.h"
 
 // CBineyeDlg dialog
@@ -63,7 +62,7 @@ public:
 
 	CBitmap* GetBgBmp() { return &m_bgBmp; };
 	virtual BOOL PreTranslateMessage(MSG* pMsg);
-	CImgBtn /*CMWRatesCmb*/ m_cBtnClose;
+	CImgBtn m_cBtnClose;
 	CImgBtn m_cBtnAbout;
 	CImgBtn m_cBtnSettings;
 	void DisplayLogo(bool bShow);

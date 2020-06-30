@@ -4,7 +4,7 @@
 //#include <afxtempl.h>		// Let manage CArray
 
 
-#pragma comment(lib, "F:\\Programming\\C\\BineyeVC10\\inc\\ijl15.lib")
+#pragma comment(lib, "inc\\ijl15.lib")
 #pragma pack(1)
 
 #include "zkrimage.h"
